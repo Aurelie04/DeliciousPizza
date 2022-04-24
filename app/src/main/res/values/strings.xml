@@ -38,7 +38,7 @@
     <string name="amount">amount</string>
     <string name="change">change</string>
     <string name="msg">message</string>
-    <string name="text2">editTextNumber1</string>
+    <string name="text2">Input the amount</string>
     <string name="menueSize2">Menu Size</string>
     <string name="ok2">ok</string>
     <string name="total2">total</string>

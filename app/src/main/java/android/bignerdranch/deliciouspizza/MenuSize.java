@@ -27,9 +27,9 @@ public class MenuSize extends AppCompatActivity {
         final RadioButton radioBtn8 = (RadioButton) findViewById(R.id.radioButton8);
         final RadioButton radioBtn9 = (RadioButton) findViewById(R.id.radioButton9);
         Button payment = (Button)findViewById(R.id.payBtn);
-        EditText amountEntry;
-        number = (EditText) findViewById(R.id.amountEntry);
-        double amount = Double.parseDouble(number.getText().toString());
+   //     EditText amountEntry;
+//        number = (EditText) findViewById(R.id.amountEntry);
+//        double amount = Double.parseDouble(number.getText().toString());
         total = findViewById(R.id.total);
         msg = findViewById(R.id.message);
 
@@ -67,19 +67,19 @@ public class MenuSize extends AppCompatActivity {
         payment.setOnClickListener(new View.OnClickListener() {
                @Override
                public void onClick(View view) {
-                   do{
-                       if(amount >sum){
-                           isValid = true;
-                           change = amount - sum;
-                           text2.setText("R" + String.valueOf(change));
-                           msg.setText("Thank you do call again!");
-
-                       }else{
-                           isValid = false;
-                           msg.setText("Invalid amountEntry.Please enter the correct amountEntry!");
-                       }
-
-                   }while (!isValid);
+//                   do{
+//                       if(amount >sum){
+//                           isValid = true;
+//                           change = amount - sum;
+//                           text2.setText("R" + String.valueOf(change));
+//                           msg.setText("Thank you do call again!");
+//
+//                       }else{
+//                           isValid = false;
+//                           msg.setText("Invalid amountEntry.Please enter the correct amountEntry!");
+//                       }
+//
+//                   }while (!isValid);
 
                }
            });
